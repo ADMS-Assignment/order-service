@@ -1,0 +1,412 @@
+{
+	"info": {
+		"_postman_id": "39525fef-9e02-4655-a5e6-5630d5ef70aa",
+		"name": "orderManagement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25445689"
+	},
+	"item": [
+		{
+			"name": "getAllOrders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/allOrders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"allOrders"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/allOrders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"allOrders"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4716"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"126c-FZY4jHrYRhxnm0zqqlrV+8405O4\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 13 Sep 2023 13:49:23 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": 1,\n    \"data\": [\n        {\n            \"Order_ID\": 1,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 3,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 4,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 5,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 6,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 7,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 8,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 9,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 10,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 11,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 12,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 13,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 14,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 15,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK    \",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 16,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK    \",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 17,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLDK    \",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 18,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIe1VyLDK    \",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 19,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 20,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 21,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 22,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 23,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 24,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 25,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 26,\n            \"Item_ID\": 1,\n            \"Customer_ID\": \"ACqNKIeOs01VLngjgDK\",\n            \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        },\n        {\n            \"Order_ID\": 27,\n            \"Item_ID\": 4,\n            \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK\",\n            \"Order_Date\": \"2023-09-11T18:30:00.000Z\",\n            \"Total\": \"100\",\n            \"Discount\": \"10\",\n            \"Sub_Total\": \"90\",\n            \"Payment_Method\": \"Credit Card\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "getOrederByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/order/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"order",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8082/order/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"order",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "202"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"ca-I6f23ahH79QcLSAFQVBP/DNK6Qc\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 13 Sep 2023 13:24:55 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": 1,\n    \"data\": {\n        \"Order_ID\": 1,\n        \"Item_ID\": 1,\n        \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK\",\n        \"Order_Date\": \"2023-09-12T18:30:00.000Z\",\n        \"Total\": \"100\",\n        \"Discount\": \"10\",\n        \"Sub_Total\": \"90\",\n        \"Payment_Method\": \"Credit Card\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "updateOrder",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/updateOrder/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"updateOrder",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"Item_ID\": 4,\r\n        \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK\",\r\n        \"Order_Date\": \"2023-09-12\",\r\n        \"Total\": \"200\",\r\n        \"Discount\": \"10\",\r\n        \"Sub_Total\": \"190\",\r\n        \"Payment_Method\": \"Credit Card\"\r\n    }\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/updateOrder/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"updateOrder",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2e-5oPhNRAzPVE/9BAqW+lZRs3Hqxg\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 13 Sep 2023 13:51:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": 1,\n    \"message\": \"Updated successfully\"\n}"
+				}
+			]
+		},
+		{
+			"name": "deleteOreder",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/deleteOrder/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"deleteOrder",
+						"2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/deleteOrder/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"deleteOrder",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "52"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"34-A2L1T8qU04S95SJGv8ZbQZZavdA\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 13 Sep 2023 12:35:23 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": 1,\n    \"message\": \"Order deleted successfully\"\n}"
+				}
+			]
+		},
+		{
+			"name": "createOrder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Item_ID\": 4,\r\n        \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK\",\r\n        \"Order_Date\": \"2023-09-12\",\r\n        \"Total\": \"100\",\r\n        \"Discount\": \"10\",\r\n        \"Sub_Total\": \"90\",\r\n        \"products\":[{\r\n            \"productId\":\"6500b90a61ea69160c5ae339\",\r\n            \"quantity\":5\r\n        }],\r\n        \"Payment_Method\": \"Credit Card\"\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/createOrder",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"createOrder"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"Item_ID\": 4,\r\n        \"Customer_ID\": \"ACqNKIeOs01VyLngjgDK\",\r\n        \"Order_Date\": \"2023-09-12\",\r\n        \"Total\": \"100\",\r\n        \"Discount\": \"10\",\r\n        \"Sub_Total\": \"90\",\r\n        \"products\":[{\r\n            \"productId\":\"6500b90a61ea69160c5ae339\",\r\n            \"quantity\":5\r\n        }],\r\n        \"Payment_Method\": \"Credit Card\"\r\n    }\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/createOrder",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"createOrder"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "40"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"28-tv1PXkNiBT045p0u7tTc5t1UYmM\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 13 Sep 2023 13:31:01 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"order created successfully\"\n}"
+				}
+			]
+		}
+	]
+}
