@@ -4,7 +4,6 @@ const axios = require("axios");
 module.exports = {
     create: (data, callBack) => {
         try {
-            // Extract the order data from the request
             const {
                 Item_ID,
                 Customer_ID,
@@ -41,10 +40,6 @@ module.exports = {
                         const response = await axios.patch("http://localhost:8080/reserve", {
                             products: products,
                         });
-
-                        // Handle the response from the external API if needed
-                        // ...
-
                         return callBack(null, results);
                     } catch (apiError) {
                         let errorMessage = "An error occurred while processing the order.";
